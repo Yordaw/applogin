@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Usuario</title>
+</head>
+<body>
+    
+    <form style="width:30%;margin:auto" action="http://192.168.14.100/server/login.php" method="post">
+        <fieldset>
+            <legend>Autenticacion de Usuario</legend>
+
+            <label for="user">Nombre</label>            
+            <input type="text" name="user" id="user" value="" size="30" maxlength="10" required>
+            <br/>
+            <br/>
+            <label for="password">Password</label>            
+            <input type="password" name="password" id="password" value="" size="30" maxlength="10" required>
+            <br/>
+            <br/>
+            <button type="submit" value="Enviar">Enviar</button>    
+        </fieldset>
+        
+    </form>
+</body>
+</html>
