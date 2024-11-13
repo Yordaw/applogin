@@ -3,15 +3,17 @@ $user = $_POST["user"];
 $password = $_POST["password"];
 ?>
 
-/*echo "Tu usuario es ".$user." y tu contraseña es ".$password;*/
-
 <html>
-  <table border="1";>
-    <tr>Usuari</tr>
-    <td><?php $user ?></td>
-
-    <tr>Contraseña</tr>
-    <td><?php $password ?></td>
-  </table>
-
+  <head></head>
+  <body>
+    <table border="1";>
+      <tr>
+        <td>Usuari</td><td><?php echo $user ?></td>
+      </tr>
+      
+      <tr>    
+        <td>Contraseña</td><td><?php echo $password ?></td>       
+      </tr>
+    </table>
+</body>
 </html>
